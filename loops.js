@@ -23,6 +23,7 @@ function doWhileLoop(arr){
   do{
     maybeTrue();
   }
-  while((maybeTrue()=== false) || (arr.length = 0))
+  while(maybeTrue() === false  || arr.length === 0){
   arr.pop();
+}
 }
